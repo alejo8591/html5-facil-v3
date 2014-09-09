@@ -14,11 +14,12 @@ module.exports = function(grunt){
   				       	 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/highlight/github.css">
   					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/style.css">
     					*/
-      					'css/html5facil.min.css': 
+      					'css/app.min.css': 
       					[
-      						//'/var/www/vhosts/html5facil.com/httpdocs/wp-content/themes/html5-facil-v3/css/normalize.css', 
+      						'css/normalize.css', 
       						'css/foundation.min.css',
       						'js/owl-carousel/owl.carousel.css',
+      						'js/owl-carousel/owl.theme.css',
       						'icon-fonts/foundation-icons.css',
       						'css/highlight/github.css',
       						'css/app.css'
