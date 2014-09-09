@@ -12,11 +12,10 @@ module.exports = function(grunt){
       						'css/foundation.min.css',
       						'js/owl-carousel/owl.carousel.css',
       						'js/owl-carousel/owl.theme.css',
-      						'icon-fonts/foundation-icons.css',
       						'css/highlight/github.css',
       						'css/app.base.css'
       					],
-      					'css/foundation-icon.min.css' : ['css/normalize.css']
+      					'icon-fonts/foundation-icons.min.css' : ['icon-fonts/foundation-icons.css']
     				}
   			}
 		},
