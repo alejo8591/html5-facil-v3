@@ -32,12 +32,10 @@
   <title><?php wp_title( '|', true, 'right' ); ?></title>
   <link href='http://fonts.googleapis.com/css?family=Raleway:300,200,600' rel='stylesheet' type='text/css'>
   <link rel="shortcut icon" href="/wp-content/themes/html5-facil-v3/img/favicon.ico" />
-  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/foundation.css" />
-  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/js/owl-carousel/owl.carousel.css">
-  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/js/owl-carousel/owl.theme.css">
-  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/icon-fonts/foundation-icons.css">
-  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/highlight/github.css">
-  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/style.css">
+	
+  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/icon-fonts/foundation-icons.min.css">
+  <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/app.min.css" /> 
+
   <link rel="profile" href="http://gmpg.org/xfn/11" />
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
