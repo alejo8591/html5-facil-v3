@@ -6,15 +6,7 @@ module.exports = function(grunt){
       					banner: '/* Theme Name: HTML5 Fácil V3 \n Theme URI: http://html5facil.com \n Description: Template V3 para la el sitio web. \n Author: @jimmylagp \n Author URI: http://html5facil.com \n Version: 3.0 */'
     				},
     				files: {
-    					/*
-    					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/foundation.css" />
-  					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/js/owl-carousel/owl.carousel.css">
-  					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/js/owl-carousel/owl.theme.css">
-  	     				 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/icon-fonts/foundation-icons.css">
-  				       	 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/highlight/github.css">
-  					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/style.css">
-    					*/
-      					'css/app.min.css': 
+      					'css/app.css': 
       					[
       						'css/normalize.css', 
       						'css/foundation.min.css',
@@ -22,8 +14,9 @@ module.exports = function(grunt){
       						'js/owl-carousel/owl.theme.css',
       						'icon-fonts/foundation-icons.css',
       						'css/highlight/github.css',
-      						'css/app.css'
-      					]
+      						'css/app.base.css'
+      					],
+      					'css/foundation-icon.min.css' : ['css/normalize.css']
     				}
   			}
 		},
