@@ -1,0 +1,100 @@
+body{ background: #95a5a6; font-family: 'Raleway', sans-serif; }
+h3{ font-weight: 200; }
+h4{ font-weight: 300; }
+p{ font-weight: 300; }
+p.light{ font-weight: 200; }
+
+pre > code{ margin-bottom: 1rem; overflow: hidden; overflow-x: scroll; }
+
+.menu li a{ color: #d5742d; }
+.menu li a:hover{ text-decoration: underline; }
+
+.content-section{ background: #FFF; }
+
+#top-header{ background: #0098da; }
+#top-header .social-icons{ font-size: 1.5rem; margin-bottom: 0; }
+#top-header .social-icons a{ color: #FFF; }
+
+#bottom-header{ background: #272e36; }
+#bottom-header h1 a{ background: url(../img/html5-facil.png) no-repeat center; background-size: 100% auto; display: block; height: 7rem; text-indent: -10000px; }
+#bottom-header p{ display: none; }
+#bottom-header .medium-7{ padding-top: 1rem; }
+#bottom-header .menu{ font-size: 1.2rem; }
+#bottom-header .menu li{ margin-left: 2rem; }
+#bottom-header .search, #bottom-header .search input, #bottom-header .search button{ margin: 0; }
+
+
+/*Home content section*/
+#tutorials-section li{ background-position: center !important; border-top: 2px solid #0098da; height: 350px; }
+#tutorials-section .container{ background: url(../img/bg-dotted.png); height: 350px; }
+#tutorials-section .container .caption{ padding: 1rem 3rem; }
+#tutorials-section .container .caption h2{ color: #FFF; }
+#tutorials-section .container .caption p{ color: #FFF; font-size: 1.2rem; font-weight: 400; }
+
+#posts-section{ padding: 1rem 0; }
+#posts-section .title-section{ margin-bottom: 1rem; }
+#posts-section .title-section h3{ color: #0098da; }
+#posts-section .post{ margin-bottom: 1rem; }
+#posts-section .post .image{ position: relative; }
+#posts-section .post .image div{ background-size: cover !important; background-position: center !important; min-height: 100%; height: 195px; min-width: 100%; width: 195px; }
+#posts-section .post .image .button{ position: absolute; z-index: 99999; }
+#posts-section .post .text h4 a{ color: #d5742d; font-size: 1.2rem; }
+#posts-section .post .text h4 a:hover{ text-decoration: underline; }
+#posts-section .post .text p{ margin: 0; }
+/*-------------------------------------------------------------------*/
+
+
+/*Single post content section*/
+#single-post{ padding: 1.5rem 1rem; }
+#single-post h2{ color: #d5742d; font-weight: 200; }
+#single-post h4{ border-bottom: 1px solid #CCC; display: block; line-height: 2rem; }
+#single-post .ads-content{ float: left; margin-right: 2rem; }
+#single-post li{ margin-bottom: 0.5rem; }
+#single-post .post-list{ margin-bottom: 1rem; }
+#single-post .post-list .thumb{ background-position: center !important; height: 140px; }
+#single-post a{ word-wrap: break-word; -ms-word-break: break-all; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; }
+
+#recommend{ background: #FFF; }
+#recommend .posts{ margin-bottom: 1rem; }
+#recommend .posts .thumb{ background-size: cover !important; background-position: center !important; display: block; height: 100px; width: auto; }
+#recommend p a{ color: #d5742d; }
+#recommend p a:hover{ text-decoration: underline; }
+
+.comments{ background: #FFF; padding-top: 1rem; padding-bottom: 1rem; }
+
+#sidebar .widget{ margin-bottom: 1.5rem; }
+#sidebar .author{ background: #ecf0f1; padding: 1rem; }
+#sidebar .author li > a{ font-size: 1.5rem; }
+#sidebar .most-viewed .thumb{ background-size: cover !important; background-position: center !important; display: block; height: 125px; margin-bottom: 0.5rem; width: auto; }
+#sidebar .most-viewed p{ font-weight: 300; }
+#sidebar .most-viewed p a{ color: #d5742d; }
+#sidebar .most-viewed p a:hover{ text-decoration: underline; }
+#sidebar .categories li > a{ font-size: 1.5rem; }
+#sidebar h4{ border: none; }
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+.alignright {float:right; }
+.alignleft {float:left; }
+.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+/*--------------------------------------------------------------------*/
+
+#top-footer{ background: #222; color: #FFF; padding: 1rem 0; }
+#top-footer h5{ color: #FFF; font-weight: 200; }
+#top-footer p{ font-size: 0.8rem; }
+
+#bottom-footer{ color: #FFF; background: #191818; padding: 1rem 0; }
+
+@media only screen and (max-width: 40.063em) {
+	#bottom-header h1 a{ height: 6rem; }
+	#bottom-header .search, #bottom-header .search input, #bottom-header .search button{ margin-bottom: 1rem; }
+
+	#single-post{ padding: 1.5rem 0; }
+	#single-post .ads-content{ display: none; }
+
+	#tutorials-section .container .caption{ padding: 1rem; }
+
+	#top-footer img{ display: block; margin: 0 auto; }
+}
