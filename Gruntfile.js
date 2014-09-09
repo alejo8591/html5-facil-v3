@@ -1,76 +1,33 @@
 module.exports = function(grunt){
 	grunt.initConfig({
-		compass : {
-			dist : {
-				options : {
-					sassDir : "dev/css/sass",
-					cssDir : "dist/css",
-					environment : "production"
-				}
-			},
-			dev : {
-				options : {
-					sassDir : "dev/css/sass",
-					cssDir : "dev/css/stylesheets"
-				}	
-			} 
+		cssmin: {
+  			add_banner: {
+    				options: {
+      					banner: '/* Theme Name: HTML5 Fácil V3 \n Theme URI: http://html5facil.com \n Description: Template V3 para la el sitio web. \n Author: @jimmylagp \n Author URI: http://html5facil.com \n Version: 3.0 */'
+    				},
+    				files: {
+    					/*
+    					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/foundation.css" />
+  					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/js/owl-carousel/owl.carousel.css">
+  					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/js/owl-carousel/owl.theme.css">
+  	     				 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/icon-fonts/foundation-icons.css">
+  				       	 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/css/highlight/github.css">
+  					 <link rel="stylesheet" href="/wp-content/themes/html5-facil-v3/style.css">
+    					*/
+      					'css/html5facil.min.css': 
+      					[
+      						//'/var/www/vhosts/html5facil.com/httpdocs/wp-content/themes/html5-facil-v3/css/normalize.css', 
+      						'css/foundation.min.css',
+      						'js/owl-carousel/owl.carousel.css',
+      						'icon-fonts/foundation-icons.css',
+      						'css/highlight/github.css',
+      						'css/app.css'
+      					]
+    				}
+  			}
 		},
-		jsdoc : {
-			dist : {
-				src : ['dist/js/*.js', '*.js'],
-				options : {
-					destination : 'docs'
-				}
-			}
-		},
-		jshint : {
-			options : {
-				curly : true,
-				eqeqeq : true,
-				eqnull : true,
-				browser : true,
-				globals : {
-					jQuery : true
-				}
-			},
-			files : {
-				src : ['dist/js/lab9-2.js', '*.js']
-			}
-		},
-		htmlhint : {
-			html1 : {
-				options: {
-					'tag-pair' : true,
-					'doctype-first' : true,
-					'id-unique' : true,
-					'tag-self-close' : true				
-				},
-				src : ['*.html']
-			}
-		},
-		rev : {
-			options : {
-				encoding : 'utf-8',
-				algorithm : 'md5',
-				length : 8
-			},
-			dist : {
-				files : {
-					src : ['dist/js/lab9-2.js']
-				}
-			}
-		}
 	});
-	// Registro de modulo a utilizar
-	// 	grunt.loadNpmTasks('grunt-contrib-compass');
-	// 		grunt.loadNpmTasks('grunt-jsdoc');
-	// 			grunt.loadNpmTasks('grunt-contrib-jshint');
-	// 				grunt.loadNpmTasks('grunt-htmlhint');
-	// 					grunt.loadNpmTasks('grunt-rev');
-	//
-	// 						// Registro de tarea
-	// 							grunt.registerTask("default", ["compass", "jsdoc", "jshint", "htmlhint", "rev"]);
-	// 								grunt.registerTask("docs", ["jsdoc"]);
-	// 									grunt.registerTask("testjshint", ["jshint"]);
-	// 										grunt.registerTask("testhtmlhint", ["htmlhint"]);
-	// 											grunt.registerTask("testrev", ["rev"]);
+	
+	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	// Task register
+	grunt.registerTask("default", ["cssmin"]);
