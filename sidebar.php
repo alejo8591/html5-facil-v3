@@ -89,11 +89,11 @@
           <div class="row">
             <div class="categories large-12 columns">
               <ul>
-                <li><a href="/category/tips" title="Tips" itemprop="url">Tips</a></li>
-                <li><a href="/category/noticias" title="Noticias" itemprop="url">Noticias</a></li>
-                <li><a href="/category/informacion" title="Información" itemprop="url">Información</a></li>
-                <li><a href="/category/eventos" title="Eventos" itemprop="url">Eventos</a></li>
-                <li><a href="/category/tutoriales" title="Tutoriales" itemprop="url">Tutoriales</a></li>
+                <li><a href="/tips" title="Tips" itemprop="url">Tips</a></li>
+                <li><a href="/noticias" title="Noticias" itemprop="url">Noticias</a></li>
+                <li><a href="informacion" title="Información" itemprop="url">Información</a></li>
+                <li><a href="/eventos" title="Eventos" itemprop="url">Eventos</a></li>
+                <li><a href="tutoriales" title="Tutoriales" itemprop="url">Tutoriales</a></li>
               </ul>
             </div>
           </div>

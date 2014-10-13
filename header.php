@@ -60,7 +60,7 @@
           <a href="#">Menu</a>
           <ul class="dropdown">
             <li><a href="/" class="fi-home"> Inicio</a></li>
-            <li><a href="/category/tutoriales" class="fi-pencil"> Tutoriales</a></li>
+            <li><a href="/tutoriales" class="fi-pencil"> Tutoriales</a></li>
             <li><a href="http://youtube.com/ninjacodetv" class="fi-play-video"> ¡En vivo!</a></li>
             <li><a href="/acerca-de" class="fi-book"> Acerca de</a></li>
             <li><a href="/contacto" class="fi-mail"> Contacto</a></li>
@@ -69,11 +69,11 @@
         <li class="has-dropdown">
           <a href="#">Categorías</a>
           <ul class="dropdown">
-            <li><a href="/category/tips" title="Tips" itemprop="url">Tips</a></li>
-            <li><a href="/category/noticias" title="Noticias" itemprop="url">Noticias</a></li>
-            <li><a href="/category/informacion" title="Información" itemprop="url">Información</a></li>
-            <li><a href="/category/eventos" title="Eventos" itemprop="url">Eventos</a></li>
-            <li><a href="/category/tutoriales" title="Tutoriales" itemprop="url">Tutoriales</a></li>
+            <li><a href="/tips" title="Tips" itemprop="url">Tips</a></li>
+            <li><a href="/noticias" title="Noticias" itemprop="url">Noticias</a></li>
+            <li><a href="/informacion" title="Información" itemprop="url">Información</a></li>
+            <li><a href="/eventos" title="Eventos" itemprop="url">Eventos</a></li>
+            <li><a href="/tutoriales" title="Tutoriales" itemprop="url">Tutoriales</a></li>
           </ul>
         </li>
       </ul>
@@ -123,7 +123,7 @@
             <div class="large-12 columns">
               <ul class="menu inline-list right">
                 <li><a href="/" class="fi-home"> Inicio</a></li>
-                <li><a href="/category/tutoriales" class="fi-pencil"> Tutoriales</a></li>
+                <li><a href="/tutoriales" class="fi-pencil"> Tutoriales</a></li>
                 <li><a href="http://youtube.com/ninjacodetv" class="fi-play-video"> ¡En vivo!</a></li>
                 <li><a href="/acerca-de" class="fi-book"> Acerca de</a></li>
                 <li><a href="/contacto" class="fi-mail"> Contacto</a></li>
